@@ -6,7 +6,7 @@ export default function Navbar() {
 
   return (
     <nav>
-      <div className='font-karla flex justify-between items-center p-6'>
+      <div className='font-karla flex justify-between items-center p-6 tracking-widest'>
         <img src={Logo} alt='Insure Logo Image' className='h-full' />
 
         {/* Mobile View */}
@@ -48,7 +48,7 @@ export default function Navbar() {
               menu ? 'visible' : 'invisible'
             } text-center bg-[--clr-neutral-01] text-[--clr-neutral-03] left-0 top-20 h-full w-full `}
           >
-            <ul className='flex flex-col gap-4 text-2xl pt-8 px-6 uppercase'>
+            <ul className='flex flex-col gap-4 text-xl pt-10 px-6 uppercase font-bold'>
               <a href='#' className='py-[0.6rem]'>
                 <li>How we work</li>
               </a>
@@ -60,7 +60,7 @@ export default function Navbar() {
               </a>
               <a
                 href='#'
-                className='border-2 border-[--clr-neutral-03] py-[0.6rem]'
+                className='border-2 border-[--clr-neutral-03] py-[0.8rem]'
               >
                 <li>View Plans</li>
               </a>
@@ -85,7 +85,7 @@ export default function Navbar() {
 
         {/* Desktop View */}
         <div className='hidden sm:block text-[--clr-neutral-02] font-bold'>
-          <ul className='flex gap-4 uppercase'>
+          <ul className='flex gap-6 uppercase'>
             <a
               href='#'
               className='py-[0.6rem] px-2 hover:text-[--clr-primary-01]'
