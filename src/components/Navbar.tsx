@@ -6,7 +6,7 @@ export default function Navbar() {
 
   return (
     <nav>
-      <div className='font-karla flex justify-between items-center p-6 tracking-widest'>
+      <div className='font-karla flex justify-between items-center p-6 tracking-widest text-center'>
         <img src={Logo} alt='Insure Logo Image' className='h-full' />
 
         {/* Mobile View */}
