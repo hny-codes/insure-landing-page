@@ -49,18 +49,18 @@ export default function Navbar() {
             } text-center bg-[--clr-neutral-01] text-[--clr-neutral-03] left-0 top-20 h-full w-full `}
           >
             <ul className='flex flex-col gap-4 text-xl pt-10 px-6 uppercase font-bold'>
-              <a href='#' className='py-[0.6rem]'>
+              <a href='#' className='py-[0.6rem] hover:text-[--clr-neutral-02]'>
                 <li>How we work</li>
               </a>
-              <a href='#' className='py-[0.6rem]'>
+              <a href='#' className='py-[0.6rem] hover:text-[--clr-neutral-02]'>
                 <li>Blog</li>
               </a>
-              <a href='#' className='py-[0.6rem]'>
+              <a href='#' className='py-[0.6rem] hover:text-[--clr-neutral-02]'>
                 <li>Account</li>
               </a>
               <a
                 href='#'
-                className='border-2 border-[--clr-neutral-03] py-[0.8rem]'
+                className='border-2 border-[--clr-neutral-03] py-[0.8rem] hover:bg-[--clr-neutral-03] hover:text-[--clr-primary-01]'
               >
                 <li>View Plans</li>
               </a>
