@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "DM Serif Display";
+  src: url("/fonts/DMSerifDisplay-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Karla";
+  src: url("/fonts/Karla-VariableFont_wght.ttf");
+}
+
+:root {
+  /* COLORS */
+
+  /* PRIMARY */
+  --clr-primary-01: hsl(256, 26%, 20%);
+  --clr-primary-02: hsl(216, 30%, 68%);
+
+  /* NEUTRAL */
+  --clr-neutral-01: hsl(270, 9%, 17%);
+  --clr-neutral-02: hsl(273, 4%, 51%);
+  --clr-neutral-03: hsl(0, 0%, 98%);
+}
