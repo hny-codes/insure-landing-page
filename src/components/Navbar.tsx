@@ -82,6 +82,36 @@ export default function Navbar() {
             </svg>
           </div>
         </div>
+
+        {/* Desktop View */}
+        <div className='hidden sm:block text-[--clr-neutral-02] font-bold'>
+          <ul className='flex gap-4 uppercase'>
+            <a
+              href='#'
+              className='py-[0.6rem] px-2 hover:text-[--clr-primary-01]'
+            >
+              <li>How we work</li>
+            </a>
+            <a
+              href='#'
+              className='py-[0.6rem] px-2 hover:text-[--clr-primary-01]'
+            >
+              <li>Blog</li>
+            </a>
+            <a
+              href='#'
+              className='py-[0.6rem] px-2 hover:text-[--clr-primary-01]'
+            >
+              <li>Account</li>
+            </a>
+            <a
+              href='#'
+              className='py-[0.6rem] outline outline-[--clr-primary-01] px-6 text-[--clr-primary-01] hover:text-[--clr-neutral-03] hover:bg-[--clr-primary-01]'
+            >
+              <li>View Plans</li>
+            </a>
+          </ul>
+        </div>
       </div>
     </nav>
   );
