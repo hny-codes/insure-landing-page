@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "DM Serif Display";
-  src: url("/fonts/DMSerifDisplay-Regular.ttf");
+  font-family: 'DM Serif Display';
+  src: url('/fonts/DMSerifDisplay-Regular.ttf');
 }
 
 @font-face {
-  font-family: "Karla";
-  src: url("/fonts/Karla-VariableFont_wght.ttf");
+  font-family: 'Karla';
+  src: url('/fonts/Karla-VariableFont_wght.ttf');
 }
 
 :root {
@@ -23,4 +23,10 @@
   --clr-neutral-01: hsl(270, 9%, 17%);
   --clr-neutral-02: hsl(273, 4%, 51%);
   --clr-neutral-03: hsl(0, 0%, 98%);
+}
+
+@layer utilities {
+  .top-divider {
+    @apply before:absolute before:bg-[--clr-neutral-02] before:w-32 before:h-[1px] before:mx-auto before:left-0 before:right-0 before:-top-8 ;
+  }
 }
