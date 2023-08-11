@@ -2,11 +2,11 @@ import { useState } from 'react';
 import Logo from '/images/logo.svg';
 
 export default function Navbar() {
-  const [menu, setMenu] = useState(true);
+  const [menu, setMenu] = useState(false);
 
   return (
-    <nav>
-      <div className='font-karla flex justify-between items-center p-6 tracking-widest text-center'>
+    <nav className='fixed w-full z-50 bg-[--clr-neutral-03]'>
+      <div className='font-karla flex justify-between items-center p-6 tracking-widest text-center max-w-[1330px] mx-auto'>
         <img src={Logo} alt='Insure Logo Image' className='h-full' />
 
         {/* Mobile View */}
