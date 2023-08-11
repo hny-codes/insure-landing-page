@@ -4,11 +4,11 @@ import AffordIcon from '/images/icon-affordable-prices.svg';
 import PeopleIcon from '/images/icon-people-first.svg';
 ---
 
-<section class="pt-40 relative">
-  <div class="text-center relative top-divider">
-    <h1 class="font-dmSerifDisplay text-[2.5rem] mb-10 text-[--clr-neutral-01]">We’re different</h1>
-    <ul class="[&>li]:my-16 w-[90%] mx-auto">
-      <li class="flex flex-col items-center">
+<section class="pt-40 sm:pt-80 relative">
+  <div class="text-center relative top-divider sm:flex sm:flex-col sm:text-left sm:before:mx-0 max-w-[1330px] sm:mx-auto sm:p-6 sm:before:left-6">
+    <h1 class="font-dmSerifDisplay text-[2.5rem] mb-10 text-[--clr-neutral-01] sm:text-5xl">We’re different</h1>
+    <ul class="[&>li]:my-16 w-[90%] mx-auto sm:flex sm:gap-10 sm:w-full sm:[&>li]:my-10">
+      <li class="flex flex-col items-center sm:items-start">
         <img src={SnappyIcon} alt='Snappy Lightning Icon' />
         <h2 class="font-dmSerifDisplay text-2xl mt-8 mb-4 text-[--clr-neutral-01]">Snappy Process</h2>
         <p class="font-karla text-[--clr-neutral-02]">
@@ -16,7 +16,7 @@ import PeopleIcon from '/images/icon-people-first.svg';
           get stuck filling in tedious forms.
         </p>
       </li>
-      <li class="flex flex-col items-center">
+      <li class="flex flex-col items-center sm:items-start">
         <img src={AffordIcon} alt='Affordable Money Icon' />
         <h2 class="font-dmSerifDisplay text-2xl mt-8 mb-4 text-[--clr-neutral-01]">Affordable Prices</h2>
         <p class="font-karla text-[--clr-neutral-02]">
@@ -24,7 +24,7 @@ import PeopleIcon from '/images/icon-people-first.svg';
           low, but we still offer the best coverage possible.
         </p>
       </li>
-      <li class="flex flex-col items-center">
+      <li class="flex flex-col items-center sm:items-start">
         <img src={PeopleIcon} alt='Person Icon' />
         <h2 class="font-dmSerifDisplay text-2xl mt-8 mb-4 text-[--clr-neutral-01]">People First</h2>
         <p class="font-karla text-[--clr-neutral-02]">
