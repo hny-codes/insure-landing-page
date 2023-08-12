@@ -7,7 +7,11 @@ import IntroImageDesktop from '/images/image-intro-desktop.jpg';
   <div
     class='relative text-[--clr-neutral-03] font-dmSerifDisplay max-w-[1330px] mx-auto sm:flex sm:p-6'
   >
-    <img src={IntroImageMobile} alt='people image' class='sm:hidden w-full max-h-[400px]' />
+    <img
+      src={IntroImageMobile}
+      alt='people image'
+      class='sm:hidden w-full max-h-[400px]'
+    />
     <img
       src={IntroImageDesktop}
       alt='people image'
@@ -27,13 +31,12 @@ import IntroImageDesktop from '/images/image-intro-desktop.jpg';
           expertise and technology to help you find the plan that's right for
           you. Ensure you and your loved ones are protected.
         </p>
-        
-        <a
-          href='#'
+
+        <button
           class='border-2 border-[--clr-neutral-03] py-1.5 px-7 hover:bg-[--clr-neutral-03] hover:text-[--clr-primary-01] font-karla mt-4 uppercase tracking-widest'
         >
-          <li class='list-none'>View Plans</li>
-        </a>
+          <a href='#'>View Plans</a>
+        </button>
 
         <!-- Mobile left/right SVG designs -->
         <div class='absolute top-0 left-0 sm:hidden'>
