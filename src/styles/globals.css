@@ -25,8 +25,14 @@
   --clr-neutral-03: hsl(0, 0%, 98%);
 }
 
+@layer base {
+  * {
+    @apply transition;
+  }
+}
+
 @layer utilities {
   .top-divider {
-    @apply before:absolute before:bg-[--clr-neutral-02] before:w-32 before:h-[1px] before:mx-auto before:left-0 before:right-0 before:-top-8 ;
+    @apply before:absolute before:bg-[--clr-neutral-02] before:w-32 before:h-[1px] before:mx-auto before:left-0 before:right-0 before:-top-8;
   }
 }
