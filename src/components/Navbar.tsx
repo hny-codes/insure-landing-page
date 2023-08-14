@@ -45,8 +45,8 @@ export default function Navbar() {
           </button>
           <div
             className={`fixed ${
-              menu ? 'visible' : 'invisible'
-            } text-center bg-[--clr-neutral-01] text-[--clr-neutral-03] left-0 top-20 h-full w-full `}
+              menu ? 'visible' : 'invisible translate-x-52 opacity-0'
+            } text-center bg-[--clr-neutral-01] text-[--clr-neutral-03] left-0 top-[5.4rem] h-full w-full `}
           >
             <ul className='flex flex-col gap-4 text-xl pt-10 px-6 uppercase font-bold'>
               <a href='#' className='py-[0.6rem] hover:text-[--clr-neutral-02]'>
